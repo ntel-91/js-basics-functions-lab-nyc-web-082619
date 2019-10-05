@@ -13,6 +13,8 @@ function distanceTravelledInFeet(sb, eb) {
   return distance*264;
 }
 
-function calculatesFarePrice()
+function calculatesFarePrice(sb, eb) {
+  
+}
 
 console.log(distanceFromHqInFeet(43))
