@@ -20,7 +20,7 @@ function calculatesFarePrice(sb, eb) {
   } else if (distance >= 400 & distance <= 2000) {
     let chargedDistance = distance - 400;
     return chargedDistance*.02;
-  }
+  } 
 }
 
 console.log(distanceFromHqInFeet(43))
