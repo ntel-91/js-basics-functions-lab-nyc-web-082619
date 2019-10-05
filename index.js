@@ -1,1 +1,18 @@
-// Code your solution in this file!
+function distanceFromHqInBlocks(location) {
+  let distance = Math.abs(location - 42);
+  return distance;
+}
+
+function distanceFromHqInFeet(location) {
+  let distance = distanceFromHqInBlocks(location);
+  return distance*264;
+}
+
+function distanceTravelledInFeet(sb, eb) {
+  let distance = Math.abs(sb - eb);
+  return distance*264;
+}
+
+function calculatesFarePrice()
+
+console.log(distanceFromHqInFeet(43))
